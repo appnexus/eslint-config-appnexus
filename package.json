@@ -8,8 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash.corp.appnexus.com:7999/~tsanteford/eslint-config-appnexus.git"
+    "url": "https://github.com/appnexus/eslint-config-appnexus"
   },
+  "keywords": [
+    "AppNexus",
+    "config",
+    "eslint",
+    "eslintconfig",
+    "javascript",
+    "styleguide"
+  ],
   "author": "Tim Santeford <tsanteford@appnexus.com>",
   "license": "ISC",
   "peerDependencies": {
