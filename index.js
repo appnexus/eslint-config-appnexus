@@ -1,1 +1,1 @@
-module.exports = require('./standard');
+module.exports = require('./base');

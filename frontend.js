@@ -8,7 +8,7 @@ module.exports = {
 			"experimentalObjectRestSpread": true
 		}
 	},
-	"extends": "appnexus/standard",
+	"extends": "appnexus/base",
 	"plugins": [
 		"react"
 	],

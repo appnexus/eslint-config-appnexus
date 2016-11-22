@@ -13,7 +13,7 @@ npm install eslint-plugin-promise --save-dev
 
 ### Configure .eslintrc
 
-### Standard
+### Base
 
 ```json
 "extends": [
@@ -21,7 +21,7 @@ npm install eslint-plugin-promise --save-dev
 ]
 ```
 
-### Standard + UI Rules
+### Base + UI Rules
 
 ```json
 "extends": [
@@ -33,7 +33,7 @@ npm install eslint-plugin-promise --save-dev
 npm install eslint-plugin-react --save-dev
 ```
 
-### Standard + Backend Rules
+### Base + Backend Rules
 
 ```json
 "extends": [
