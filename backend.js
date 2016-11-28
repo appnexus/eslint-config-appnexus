@@ -1,5 +1,5 @@
 module.exports = {
-	"extends": "appnexus/base",
+	"extends": "./base.js",
 	"plugins": [
 		"hapi"
 	],
