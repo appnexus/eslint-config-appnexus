@@ -44,3 +44,21 @@ npm install eslint-plugin-react --save-dev
 ```shell
 npm install eslint-plugin-hapi --save-dev
 ```
+
+## Overriding rules
+
+To override rules for your project use the rules section of the .eslintrc file
+
+#### Example overriding indentation to 2 spaces:
+```json
+"extends": [
+	"appnexus"
+],
+"rules": {
+	"indent": ["error", 2]
+}
+```
+
+## Rule Changes
+
+See the [wiki](https://github.com/appnexus/eslint-config-appnexus/wiki) for the semver policy for this project. Please propose rule changes as an [issue](https://github.com/appnexus/eslint-config-appnexus/issues) in this repo.
