@@ -4,7 +4,7 @@
   "description": "AppNexus Standard Eslint Config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,10 @@
     "styleguide"
   ],
   "author": "Tim Santeford <tsanteford@appnexus.com>",
-  "license": "ISC",
+  "licenses": [{
+    "type": "Apache-2.0",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0"
+  }],
   "peerDependencies": {
     "eslint": ">= 3",
     "eslint-plugin-hapi": "^4.0.0",
@@ -34,6 +37,10 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-lodash": "^2.1.8",
     "eslint-plugin-promise": "^3.3.1",
-    "eslint-plugin-react": "^6.7.1"
+    "eslint-plugin-react": "^6.7.1",
+    "jest": "^17.0.3"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
