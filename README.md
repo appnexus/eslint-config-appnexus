@@ -57,6 +57,15 @@ To override rules for your project use the rules section of the .eslintrc file
 "rules": {
 	"indent": ["error", 2]
 }
+
+#### Example of adding mocha defined functions:
+```json
+"env": {
+  "mocha": true
+},
+"extends": [
+  "appnexus"
+]
 ```
 
 ## Rule Changes
