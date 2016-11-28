@@ -1,4 +1,5 @@
 module.exports = {
+	"extends": "./base.js",
 	"env": {
 		"browser": true,
 	},
@@ -8,7 +9,6 @@ module.exports = {
 			"experimentalObjectRestSpread": true
 		}
 	},
-	"extends": "appnexus/standard",
 	"plugins": [
 		"react"
 	],
