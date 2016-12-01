@@ -4,7 +4,9 @@
   "description": "AppNexus Standard Eslint Config",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint . --ignore-pattern test-*",
+    "lint-fix": "eslint . --ignore-pattern test-* --fix"
   },
   "repository": {
     "type": "git",
@@ -19,10 +21,12 @@
     "styleguide"
   ],
   "author": "Tim Santeford <tsanteford@appnexus.com>",
-  "licenses": [{
-    "type": "Apache-2.0",
-    "url": "http://www.apache.org/licenses/LICENSE-2.0"
-  }],
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
   "peerDependencies": {
     "eslint": ">= 3",
     "eslint-plugin-hapi": "^4.0.0",
@@ -39,6 +43,7 @@
     "eslint-plugin-promise": "^3.3.1",
     "eslint-plugin-react": "^6.7.1",
     "jest": "^17.0.3",
+    "lodash": "^4.17.2",
     "react": "^15.4.1"
   },
   "jest": {
