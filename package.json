@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint . --ignore-pattern test-*",
-    "lint-fix": "eslint . --ignore-pattern test-* --fix"
+    "lint-fix": "eslint . --ignore-pattern test-* --fix",
+    "find-unused-rules": "eslint-find-rules -u -n"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
   },
   "devDependencies": {
     "eslint": "^3.10.2",
+    "eslint-find-rules": "^1.14.3",
     "eslint-plugin-hapi": "^4.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-lodash": "^2.1.8",

@@ -72,3 +72,11 @@ To override rules for your project use the rules section of the .eslintrc file
 ## Rule Changes
 
 See the [wiki](https://github.com/appnexus/eslint-config-appnexus/wiki) for the semver policy for this project. Please propose rule changes as an [issue](https://github.com/appnexus/eslint-config-appnexus/issues) in this repo.
+
+## Find Unused Rules
+
+```shell
+npm run find-unused-rules -- base.js
+npm run find-unused-rules -- frontend.js
+npm run find-unused-rules -- backend.js
+```

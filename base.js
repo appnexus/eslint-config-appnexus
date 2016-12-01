@@ -7,10 +7,11 @@ module.exports = {
 	'parserOptions': {
 		'sourceType': 'module',
 	},
+	'extends': 'eslint:recommended',
 	'plugins': [
 		'import',
-		'promise',
 		'lodash',
+		'promise',
 	],
 	'settings': {
 		'import/extensions': ['js'],
@@ -34,51 +35,35 @@ module.exports = {
 		'import/no-named-as-default': 2,
 		'import/no-unresolved': [2, { 'commonjs': true }],
 		'import/prefer-default-export': 0,
-		'indent': ['error', 'tab'],
+		'indent': [2, 'tab'],
 		'key-spacing': [2, { 'mode': 'minimum' }],
 		'keyword-spacing': 2,
 		'lodash/chaining': 0,
 		'new-parens': 2,
+		'no-case-declarations': 'warn', // Set as major change warning due to eslint:recommend
 		'no-class-assign': 2,
+		'no-cond-assign': 'warn', // Set as major change warning due to eslint:recommend
 		'no-confusing-arrow': [2, { 'allowParens': true }],
-		'no-console': 2,
-		'no-const-assign': 2,
-		'no-control-regex': 2,
-		'no-debugger': 2,
-		'no-delete-var': 2,
-		'no-dupe-args': 2,
-		'no-dupe-class-members': 2,
-		'no-dupe-keys': 2,
-		'no-duplicate-case': 2,
+		'no-constant-condition': 'warn', // Set as major change warning due to eslint:recommend
 		'no-else-return': 2,
-		'no-empty-character-class': 2,
-		'no-ex-assign': 2,
-		'no-extra-boolean-cast': 2,
+		'no-empty-pattern': 'warn', // Set as major change warning due to eslint:recommend
+		'no-empty': 'warn', // Set as major change warning due to eslint:recommend
 		'no-extra-parens': [2, 'functions'],
-		'no-extra-semi': 2,
-		'no-fallthrough': 2,
-		'no-func-assign': 2,
-		'no-invalid-regexp': 2,
-		'no-irregular-whitespace': 2,
+		'no-global-assign': 'warn', // Set as major change warning due to eslint:recommend
+		'no-inner-declarations': 'warn', // Set as major change warning due to eslint:recommend
+		'no-invalid-regexp': 'warn', // Set as major change warning due to eslint:recommend
 		'no-mixed-requires': 2,
-		'no-mixed-spaces-and-tabs': 2,
 		'no-multiple-empty-lines': [2, { 'max': 2 }],
 		'no-negated-in-lhs': 2,
 		'no-new-require': 2,
-		'no-new-symbol': 2,
-		'no-obj-calls': 2,
-		'no-octal': 2,
 		'no-path-concat': 2,
 		'no-proto': 2,
-		'no-redeclare': 2,
+		'no-regex-spaces': 'warn', // Set as major change warning due to eslint:recommend
 		'no-restricted-modules': [2, 'sys', '_linklist'],
-		'no-self-assign': 2,
-		'no-this-before-super': 2,
+		'no-sparse-arrays': 'warn', // Set as major change warning due to eslint:recommend
 		'no-trailing-spaces': 2,
-		'no-undef': 2,
-		'no-unexpected-multiline': 2,
-		'no-unreachable': 2,
-		'no-unused-labels': 2,
+		'no-unsafe-finally': 'warn', // Set as major change warning due to eslint:recommend
+		'no-unsafe-negation': 'warn', // Set as major change warning due to eslint:recommend
 		'no-unused-vars': [2, { 'args': 'none' }],
 		'prefer-const': 2,
 		'promise/always-return': 2,
@@ -86,6 +71,7 @@ module.exports = {
 		'promise/no-native': 0,
 		'promise/param-names': 2,
 		'quotes': [2, 'single', { 'allowTemplateLiterals': true }],
+		'require-yield': 'warn', // Set as major change warning due to eslint:recommend
 		'semi': 2,
 		'space-before-blocks': [2, 'always'],
 		'space-before-function-paren': [2, 'never'],
@@ -93,7 +79,68 @@ module.exports = {
 		'space-infix-ops': 2,
 		'space-unary-ops': 2,
 		'template-curly-spacing': 2,
-		'use-isnan': 2,
-		'valid-typeof': 2,
+
+		// == Unspecified ==
+		// 'import/extensions'
+		// 'import/first'
+		// 'import/max-dependencies'
+		// 'import/no-absolute-path'
+		// 'import/no-amd'
+		// 'import/no-commonjs'
+		// 'import/no-deprecated'
+		// 'import/no-duplicates'
+		// 'import/no-dynamic-require'
+		// 'import/no-internal-modules'
+		// 'import/no-named-default'
+		// 'import/no-namespace'
+		// 'import/no-nodejs-modules'
+		// 'import/no-restricted-paths'
+		// 'import/no-unassigned-import '
+		// 'import/no-webpack-loader-syntax'
+		// 'import/order'
+		// 'import/unambiguous'
+		// 'lodash/callback-binding'
+		// 'lodash/chain-style'
+		// 'lodash/collection-method-value'
+		// 'lodash/collection-return'
+		// 'lodash/consistent-compose'
+		// 'lodash/identity-shorthand'
+		// 'lodash/matches-prop-shorthand'
+		// 'lodash/matches-shorthand'
+		// 'lodash/no-commit'
+		// 'lodash/no-double-unwrap'
+		// 'lodash/no-extra-args'
+		// 'lodash/no-unbound-this'
+		// 'lodash/path-style'
+		// 'lodash/prefer-compact'
+		// 'lodash/prefer-constant'
+		// 'lodash/prefer-filter'
+		// 'lodash/prefer-flat-map'
+		// 'lodash/prefer-get'
+		// 'lodash/prefer-includes'
+		// 'lodash/prefer-invoke-map'
+		// 'lodash/prefer-is-nil'
+		// 'lodash/prefer-lodash-chain'
+		// 'lodash/prefer-lodash-method'
+		// 'lodash/prefer-lodash-typecheck'
+		// 'lodash/prefer-map'
+		// 'lodash/prefer-matches'
+		// 'lodash/prefer-noop'
+		// 'lodash/prefer-over-quantifier'
+		// 'lodash/prefer-reject'
+		// 'lodash/prefer-startswith'
+		// 'lodash/prefer-thru'
+		// 'lodash/prefer-times'
+		// 'lodash/prefer-wrapper-method'
+		// 'lodash/preferred-alias'
+		// 'lodash/prop-shorthand'
+		// 'lodash/unwrap'
+		// 'promise/avoid-new'
+		// 'promise/no-callback-in-promise'
+		// 'promise/no-nesting'
+		// 'promise/no-promise-in-callback'
+		// 'promise/no-return-wrap'
+		// 'promise/prefer-await-to-callbacks'
+		// 'promise/prefer-await-to-then'
 	},
 };
