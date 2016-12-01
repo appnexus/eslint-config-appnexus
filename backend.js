@@ -1,12 +1,12 @@
 module.exports = {
-	"extends": "./base.js",
-	"plugins": [
-		"hapi"
+	'extends': './base.js',
+	'plugins': [
+		'hapi',
 	],
-	"rules": {
-		"hapi/hapi-capitalize-modules": 0,
-		"hapi/hapi-for-you": 2,
-		"hapi/hapi-scope-start": 0,
-		"hapi/no-arrowception": 2
-	}
+	'rules': {
+		'hapi/hapi-capitalize-modules': 0,
+		'hapi/hapi-for-you': 2,
+		'hapi/hapi-scope-start': 0,
+		'hapi/no-arrowception': 2,
+	},
 };

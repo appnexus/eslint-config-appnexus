@@ -7,7 +7,7 @@ React.createClass({
 	},
 	render: function() {
 		return <div>
-			{this.props.firstname}
+			{this.props.firstname},
 			{this.props.lastname} // lastname type is not defined in propTypes
 		</div>;
 	},
