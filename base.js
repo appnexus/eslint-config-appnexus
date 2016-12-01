@@ -45,7 +45,6 @@ module.exports = {
 		'no-cond-assign': 'warn', // Set as major change warning due to eslint:recommend
 		'no-confusing-arrow': [2, { 'allowParens': true }],
 		'no-constant-condition': 'warn', // Set as major change warning due to eslint:recommend
-		'no-else-return': 2,
 		'no-empty-pattern': 'warn', // Set as major change warning due to eslint:recommend
 		'no-empty': 'warn', // Set as major change warning due to eslint:recommend
 		'no-extra-parens': [2, 'functions'],
