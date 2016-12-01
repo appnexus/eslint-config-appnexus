@@ -80,7 +80,7 @@ module.exports = {
 		'space-unary-ops': 2,
 		'template-curly-spacing': 2,
 
-		// == Unspecified ==
+		// === Unspecified ===
 		// 'import/extensions'
 		// 'import/first'
 		// 'import/max-dependencies'

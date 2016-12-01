@@ -15,6 +15,8 @@ npm install eslint-plugin-promise --save-dev
 
 ### Base
 
+[View Config](https://github.com/appnexus/eslint-config-appnexus/blob/master/base.js)
+
 ```json
 "extends": [
 	"appnexus"
@@ -22,6 +24,8 @@ npm install eslint-plugin-promise --save-dev
 ```
 
 ### Base + UI Rules
+
+[View Config](https://github.com/appnexus/eslint-config-appnexus/blob/master/frontend.js)
 
 ```json
 "extends": [
@@ -34,6 +38,8 @@ npm install eslint-plugin-react --save-dev
 ```
 
 ### Base + Backend Rules
+
+[View Config](https://github.com/appnexus/eslint-config-appnexus/blob/master/backend.js)
 
 ```json
 "extends": [
