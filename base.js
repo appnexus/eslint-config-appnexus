@@ -44,7 +44,7 @@ module.exports = {
 		"keyword-spacing": 2,
 		"new-parens": 2,
 		"no-class-assign": 2,
-		"no-confusing-arrow": 2,
+		"no-confusing-arrow": [2, { "allowParens": true }],
 		"no-console": 2,
 		"no-const-assign": 2,
 		"no-control-regex": 2,
