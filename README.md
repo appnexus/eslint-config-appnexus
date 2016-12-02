@@ -11,6 +11,10 @@ npm install eslint-plugin-lodash --save-dev
 npm install eslint-plugin-promise --save-dev
 ```
 
+## Links
+
+* [Changelog](CHANGELOG.md)
+
 ### Configure .eslintrc
 
 ### Base

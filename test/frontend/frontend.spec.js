@@ -14,8 +14,8 @@ describe('Frontend', function() {
 		});
 
 		expect(errors).toEqual([{
-			'ruleId': 'react/prop-types',
-			'severity': 1,
+			ruleId: 'react/prop-types',
+			severity: 1,
 		}]);
 
 	});
@@ -29,8 +29,8 @@ describe('Frontend', function() {
 		});
 
 		expect(errors).toEqual([{
-			'ruleId': 'react/react-in-jsx-scope',
-			'severity': 2,
+			ruleId: 'react/react-in-jsx-scope',
+			severity: 2,
 		}]);
 
 	});

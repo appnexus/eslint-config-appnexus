@@ -1,9 +1,9 @@
 module.exports = {
-	'extends': './base.js',
-	'plugins': [
+	extends: './base.js',
+	plugins: [
 		'hapi',
 	],
-	'rules': {
+	rules: {
 		'hapi/hapi-capitalize-modules': 0,
 		'hapi/hapi-for-you': 2,
 		'hapi/hapi-scope-start': 0,

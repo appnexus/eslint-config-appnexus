@@ -1,24 +1,24 @@
 module.exports = {
-	'env': {
-		'node': true,
-		'es6': true,
-		'jest': true,
+	env: {
+		node: true,
+		es6: true,
+		jest: true,
 	},
-	'parserOptions': {
-		'sourceType': 'module',
+	parserOptions: {
+		sourceType: 'module',
 	},
-	'extends': 'eslint:recommended',
-	'plugins': [
+	extends: 'eslint:recommended',
+	plugins: [
 		'import',
 		'lodash',
 		'promise',
 	],
-	'settings': {
+	settings: {
 		'import/extensions': ['js'],
 	},
-	'rules': {
+	rules: {
 		'arrow-parens': [2, 'always'],
-		'arrow-spacing': [2, { 'before': true,	'after': true }],
+		'arrow-spacing': [2, { before: true,	after: true }],
 		'comma-dangle': [2, 'always-multiline'],
 		'comma-spacing': 2,
 		'constructor-super': 2,
@@ -33,17 +33,17 @@ module.exports = {
 		'import/no-mutable-exports': 2,
 		'import/no-named-as-default-member': 2,
 		'import/no-named-as-default': 2,
-		'import/no-unresolved': [2, { 'commonjs': true }],
+		'import/no-unresolved': [2, { commonjs: true }],
 		'import/prefer-default-export': 0,
-		'indent': [2, 'tab'],
-		'key-spacing': [2, { 'mode': 'minimum' }],
+		indent: [2, 'tab'],
+		'key-spacing': [2, { mode: 'minimum' }],
 		'keyword-spacing': 2,
 		'lodash/chaining': 0,
 		'new-parens': 2,
 		'no-case-declarations': 'warn', // Set as major change warning due to eslint:recommend
 		'no-class-assign': 2,
 		'no-cond-assign': 'warn', // Set as major change warning due to eslint:recommend
-		'no-confusing-arrow': [2, { 'allowParens': true }],
+		'no-confusing-arrow': [2, { allowParens: true }],
 		'no-constant-condition': 'warn', // Set as major change warning due to eslint:recommend
 		'no-empty-pattern': 'warn', // Set as major change warning due to eslint:recommend
 		'no-empty': 'warn', // Set as major change warning due to eslint:recommend
@@ -52,7 +52,7 @@ module.exports = {
 		'no-inner-declarations': 'warn', // Set as major change warning due to eslint:recommend
 		'no-invalid-regexp': 'warn', // Set as major change warning due to eslint:recommend
 		'no-mixed-requires': 2,
-		'no-multiple-empty-lines': [2, { 'max': 2 }],
+		'no-multiple-empty-lines': [2, { max: 2 }],
 		'no-negated-in-lhs': 2,
 		'no-new-require': 2,
 		'no-path-concat': 2,
@@ -63,14 +63,15 @@ module.exports = {
 		'no-trailing-spaces': 2,
 		'no-unsafe-finally': 'warn', // Set as major change warning due to eslint:recommend
 		'no-unsafe-negation': 'warn', // Set as major change warning due to eslint:recommend
-		'no-unused-vars': [2, { 'args': 'none' }],
+		'no-unused-vars': [2, { args: 'none' }],
 		'prefer-const': 2,
 		'promise/always-return': 2,
 		'promise/catch-or-return': 2,
 		'promise/param-names': 2,
-		'quotes': [2, 'single', { 'allowTemplateLiterals': true }],
+		'quote-props': ['warn', 'as-needed'], // Set as major change warning
+		quotes: [2, 'single', { allowTemplateLiterals: true }],
 		'require-yield': 'warn', // Set as major change warning due to eslint:recommend
-		'semi': 2,
+		semi: 2,
 		'space-before-blocks': [2, 'always'],
 		'space-before-function-paren': [2, 'never'],
 		'space-in-parens': [2, 'never'],

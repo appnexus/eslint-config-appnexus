@@ -1,18 +1,18 @@
 module.exports = {
-	'extends': './base.js',
-	'env': {
-		'browser': true,
+	extends: './base.js',
+	env: {
+		browser: true,
 	},
-	'parserOptions': {
-		'ecmaFeatures': {
-			'jsx': true,
-			'experimentalObjectRestSpread': true,
+	parserOptions: {
+		ecmaFeatures: {
+			jsx: true,
+			experimentalObjectRestSpread: true,
 		},
 	},
-	'plugins': [
+	plugins: [
 		'react',
 	],
-	'rules': {
+	rules: {
 		'react/jsx-uses-react': 2,
 		'react/jsx-uses-vars': 2,
 		'react/prop-types': 1,
