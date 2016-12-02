@@ -67,7 +67,6 @@ module.exports = {
 		'prefer-const': 2,
 		'promise/always-return': 2,
 		'promise/catch-or-return': 2,
-		'promise/no-native': 0,
 		'promise/param-names': 2,
 		'quotes': [2, 'single', { 'allowTemplateLiterals': true }],
 		'require-yield': 'warn', // Set as major change warning due to eslint:recommend
@@ -136,6 +135,7 @@ module.exports = {
 		// 'lodash/unwrap'
 		// 'promise/avoid-new'
 		// 'promise/no-callback-in-promise'
+		// 'promise/no-native'
 		// 'promise/no-nesting'
 		// 'promise/no-promise-in-callback'
 		// 'promise/no-return-wrap'
