@@ -13,6 +13,6 @@
 * [minor] - Added warnings for rules added by `eslint:recommend` to become errors in next major release
 * Now inherits from `eslint:recommend`
 
-### 1.0.2
+## 1.0.2
 
 * First official release

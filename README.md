@@ -15,7 +15,7 @@ npm install eslint-plugin-promise --save-dev
 
 * [Changelog](CHANGELOG.md)
 
-### Configure .eslintrc
+## Configure .eslintrc
 
 ### Base
 
