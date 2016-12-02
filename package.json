@@ -9,6 +9,10 @@
     "lint-fix": "eslint . --ignore-pattern test-* --fix",
     "find-unused-rules": "eslint-find-rules -u -n"
   },
+  "pre-push": [
+    "lint",
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/appnexus/eslint-config-appnexus"
@@ -46,6 +50,7 @@
     "eslint-plugin-react": "^6.7.1",
     "jest": "^17.0.3",
     "lodash": "^4.17.2",
+    "pre-push": "^0.1.1",
     "react": "^15.4.1"
   },
   "jest": {
