@@ -2,6 +2,8 @@
 
 ## Latest
 
+## 1.2.0
+
 * [minor] - Added warning for `quote-props` to become error in next major release
 
 ## 1.1.0

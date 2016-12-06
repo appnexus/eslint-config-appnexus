@@ -13,7 +13,8 @@ npm install eslint-plugin-promise --save-dev
 
 ## Links
 
-* [Changelog](CHANGELOG.md)
+* [Semver Policy](https://github.com/appnexus/eslint-config-appnexus/wiki)
+* [Change Log](CHANGELOG.md)
 
 ## Configure .eslintrc
 
