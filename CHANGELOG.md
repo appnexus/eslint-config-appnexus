@@ -2,6 +2,7 @@
 
 ## Latest
 
+* [minor] - Changed `quote-props` to 'consistent-as-needed'
 * [patch] - Allow indentation for case statements
 
 ## 1.2.0
