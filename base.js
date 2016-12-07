@@ -35,7 +35,7 @@ module.exports = {
 		'import/no-named-as-default': 2,
 		'import/no-unresolved': [2, { commonjs: true }],
 		'import/prefer-default-export': 0,
-		indent: [2, 'tab'],
+		indent: [2, 'tab', { SwitchCase: 1 }],
 		'key-spacing': [2, { mode: 'minimum' }],
 		'keyword-spacing': 2,
 		'lodash/chaining': 0,

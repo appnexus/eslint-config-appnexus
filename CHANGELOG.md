@@ -2,6 +2,8 @@
 
 ## Latest
 
+* [patch] - Allow indentation for case statements
+
 ## 1.2.0
 
 * [minor] - Added warning for `quote-props` to become error in next major release
