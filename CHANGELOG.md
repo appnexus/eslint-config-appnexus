@@ -2,6 +2,12 @@
 
 ## Latest
 
+## 1.4.0
+
+* [minor] - Removed `quote-props` lint rule
+
+## 1.3.0
+
 * [minor] - Changed `quote-props` to 'consistent-as-needed'
 * [patch] - Allow indentation for case statements
 

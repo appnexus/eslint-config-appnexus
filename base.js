@@ -68,7 +68,6 @@ module.exports = {
 		'promise/always-return': 2,
 		'promise/catch-or-return': 2,
 		'promise/param-names': 2,
-		'quote-props': ['warn', 'consistent-as-needed'], // Set as major change warning
 		'quotes': [2, 'single', { allowTemplateLiterals: true }],
 		'require-yield': 'warn', // Set as major change warning due to eslint:recommend
 		'semi': 2,
