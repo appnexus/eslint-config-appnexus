@@ -34,42 +34,27 @@ module.exports = {
 		'import/no-named-as-default-member': 2,
 		'import/no-named-as-default': 2,
 		'import/no-unresolved': [2, { commonjs: true }],
-		'import/prefer-default-export': 0,
 		'indent': [2, 'tab', { SwitchCase: 1 }],
 		'key-spacing': [2, { mode: 'minimum' }],
 		'keyword-spacing': 2,
-		'lodash/chaining': 0,
 		'new-parens': 2,
-		'no-case-declarations': 'warn', // Set as major change warning due to eslint:recommend
 		'no-class-assign': 2,
-		'no-cond-assign': 'warn', // Set as major change warning due to eslint:recommend
 		'no-confusing-arrow': [2, { allowParens: true }],
-		'no-constant-condition': 'warn', // Set as major change warning due to eslint:recommend
-		'no-empty-pattern': 'warn', // Set as major change warning due to eslint:recommend
-		'no-empty': 'warn', // Set as major change warning due to eslint:recommend
 		'no-extra-parens': [2, 'functions'],
-		'no-global-assign': 'warn', // Set as major change warning due to eslint:recommend
-		'no-inner-declarations': 'warn', // Set as major change warning due to eslint:recommend
-		'no-invalid-regexp': 'warn', // Set as major change warning due to eslint:recommend
 		'no-mixed-requires': 2,
 		'no-multiple-empty-lines': [2, { max: 2 }],
 		'no-negated-in-lhs': 2,
 		'no-new-require': 2,
 		'no-path-concat': 2,
 		'no-proto': 2,
-		'no-regex-spaces': 'warn', // Set as major change warning due to eslint:recommend
 		'no-restricted-modules': [2, 'sys', '_linklist'],
-		'no-sparse-arrays': 'warn', // Set as major change warning due to eslint:recommend
 		'no-trailing-spaces': 2,
-		'no-unsafe-finally': 'warn', // Set as major change warning due to eslint:recommend
-		'no-unsafe-negation': 'warn', // Set as major change warning due to eslint:recommend
 		'no-unused-vars': [2, { args: 'none' }],
 		'prefer-const': 2,
 		'promise/always-return': 2,
 		'promise/catch-or-return': 2,
 		'promise/param-names': 2,
 		'quotes': [2, 'single', { allowTemplateLiterals: true }],
-		'require-yield': 'warn', // Set as major change warning due to eslint:recommend
 		'semi': 2,
 		'space-before-blocks': [2, 'always'],
 		'space-before-function-paren': [2, 'never'],
@@ -77,7 +62,27 @@ module.exports = {
 		'space-unary-ops': 2,
 		'template-curly-spacing': 2,
 
-		// === Unspecified ===
+		//  Warnings - will become errors in next major version
+		'no-case-declarations': 1,
+		'no-cond-assign': 1,
+		'no-constant-condition': 1,
+		'no-empty-pattern': 1,
+		'no-empty': 1,
+		'no-global-assign': 1,
+		'no-inner-declarations': 1,
+		'no-invalid-regexp': 1,
+		'no-regex-spaces': 1,
+		'no-sparse-arrays': 1,
+		'no-unsafe-finally': 1,
+		'no-unsafe-negation': 1,
+		'require-yield': 1,
+
+		// Disabled - left to consumer to define
+		'import/prefer-default-export': 0,
+		'lodash/chaining': 0,
+		'quote-props': 0,
+
+		// Unspecified
 		// 'import/extensions'
 		// 'import/first'
 		// 'import/max-dependencies'
