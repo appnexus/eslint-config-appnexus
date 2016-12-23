@@ -72,4 +72,7 @@ module.exports = {
 		// 'react/style-prop-object'
 		// 'react/wrap-multilines'
 	},
+	'settings': {
+		'import/resolver': {'node': {'extensions': ['.js', '.jsx']}},
+	},
 };

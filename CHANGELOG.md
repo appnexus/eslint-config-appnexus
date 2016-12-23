@@ -2,6 +2,10 @@
 
 ## Latest
 
+## 1.5.0
+
+* [minor] - Added js and jsx extensions to `import/resolver` settings in `frontend`
+
 ## 1.4.0
 
 * [minor] - Removed `quote-props` lint rule
