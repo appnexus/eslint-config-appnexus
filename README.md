@@ -16,16 +16,18 @@ npm install eslint-plugin-promise --save-dev
 * [Semver Policy](https://github.com/appnexus/eslint-config-appnexus/wiki#semver-policy)
 * [Change Log](CHANGELOG.md)
 
-## Configure .eslintrc
+## Configure .eslintrc.json
 
 ### Base
 
 [View Config](https://github.com/appnexus/eslint-config-appnexus/blob/master/base.js)
 
 ```json
-"extends": [
-	"appnexus"
-]
+{
+	"extends": [
+		"appnexus"
+	]
+}
 ```
 
 ### Base + UI Rules
@@ -33,9 +35,11 @@ npm install eslint-plugin-promise --save-dev
 [View Config](https://github.com/appnexus/eslint-config-appnexus/blob/master/frontend.js)
 
 ```json
-"extends": [
-	"appnexus/frontend"
-]
+{
+	"extends": [
+		"appnexus/frontend"
+	]
+}
 ```
 
 ```shell
@@ -47,9 +51,11 @@ npm install eslint-plugin-react --save-dev
 [View Config](https://github.com/appnexus/eslint-config-appnexus/blob/master/backend.js)
 
 ```json
-"extends": [
-	"appnexus/backend"
-]
+{
+	"extends": [
+		"appnexus/backend"
+	]
+}
 ```
 
 ```shell
@@ -58,26 +64,30 @@ npm install eslint-plugin-hapi --save-dev
 
 ## Overriding rules
 
-To override rules for your project use the rules section of the .eslintrc file
+To override rules for your project use the rules section of the .eslintrc.json file
 
 #### Example overriding indentation to 2 spaces:
 ```json
-"extends": [
-	"appnexus"
-],
-"rules": {
-	"indent": ["error", 2]
+{
+	"extends": [
+		"appnexus"
+	],
+	"rules": {
+		"indent": ["error", 2]
+	}
 }
 ```
 
 #### Example of adding mocha defined functions:
 ```json
-"env": {
-  "mocha": true
-},
-"extends": [
-  "appnexus"
-]
+{
+	"env": {
+	  "mocha": true
+	},
+	"extends": [
+	  "appnexus"
+	]
+}
 ```
 
 ## Rule Changes
