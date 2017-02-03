@@ -15,8 +15,11 @@ module.exports = {
 	rules: {
 		'react/jsx-uses-react': 2,
 		'react/jsx-uses-vars': 2,
-		'react/prop-types': 1,
 		'react/react-in-jsx-scope': 2,
+
+		//  Warnings - will become errors in next major version
+		'jsx-quotes': [1, 'prefer-single'],
+		'react/prop-types': 1,
 
 		// === Unspecified ===
 		// 'react/display-name'

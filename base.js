@@ -73,6 +73,7 @@ module.exports = {
 		'no-invalid-regexp': 1,
 		'no-regex-spaces': 1,
 		'no-sparse-arrays': 1,
+		'no-undef': 1,
 		'no-unsafe-finally': 1,
 		'no-unsafe-negation': 1,
 		'require-yield': 1,

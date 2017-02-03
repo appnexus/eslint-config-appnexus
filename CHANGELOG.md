@@ -2,6 +2,12 @@
 
 ## Latest
 
+## 1.6.0
+
+* [minor] - Added warning for `no-undef` to become error in next major release
+* [minor] - Added warning for `jsx-quotes` to become error in next major release
+* [minor] - `react/prop-types` to become error in next major release
+
 ## 1.5.1
 
 * Removed peerDependencies
