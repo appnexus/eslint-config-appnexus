@@ -2,6 +2,10 @@
 
 ## Latest
 
+## 3.0.0
+
+* [major] - Added prettier and rules as warning
+
 ## 2.0.2
 
 * [patch] - fixed experimentalObjectRestSpread error

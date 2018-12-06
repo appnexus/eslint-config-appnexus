@@ -8,9 +8,8 @@ module.exports = {
 		sourceType: 'module',
 		ecmaFeatures: { jsx: true },
 	},
-	plugins: [
-		'react',
-	],
+	parser: 'babel-eslint',
+	plugins: ['react'],
 	rules: {
 		'react/jsx-uses-react': 2,
 		'react/jsx-uses-vars': 2,
@@ -74,7 +73,7 @@ module.exports = {
 		// 'react/style-prop-object'
 		// 'react/wrap-multilines'
 	},
-	'settings': {
-		'import/resolver': {'node': {'extensions': ['.js', '.jsx']}},
+	settings: {
+		'import/resolver': { node: { extensions: ['.js', '.jsx'] } },
 	},
 };

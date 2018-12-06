@@ -7,22 +7,26 @@ module.exports = {
 	parserOptions: {
 		sourceType: 'module',
 	},
-	extends: 'eslint:recommended',
+	extends: [
+		'prettier', //
+		'eslint:recommended',
+	],
 	plugins: [
-		'import',
+		'import', //
 		'lodash',
 		'promise',
+		'prettier',
 	],
 	settings: {
 		'import/extensions': ['js'],
 	},
 	rules: {
-		'arrow-parens': [2, 'always'],
-		'arrow-spacing': [2, { before: true,	after: true }],
-		'comma-dangle': [2, 'always-multiline'],
-		'comma-spacing': 2,
+		// 'arrow-parens': [2, 'always'], - Handled by Prettier
+		// 'arrow-spacing': [2, { before: true, after: true }], - Handled by Prettier
+		// 'comma-dangle': [2, 'always-multiline'], - Handled by Prettier
+		// 'comma-spacing': 2, - Handled by Prettier
 		'constructor-super': 2,
-		'eol-last': 2,
+		// 'eol-last': 2, - Handled by Prettier
 		'import/default': 2,
 		'import/export': 2,
 		'import/imports-first': 2,
@@ -34,23 +38,23 @@ module.exports = {
 		'import/no-named-as-default-member': 2,
 		'import/no-named-as-default': 2,
 		'import/no-unresolved': [2, { commonjs: true }],
-		'indent': [2, 'tab', { SwitchCase: 1 }],
-		'key-spacing': [2, { mode: 'minimum' }],
-		'keyword-spacing': 2,
-		'new-parens': 2,
+		// 'indent': [2, 'tab', { SwitchCase: 1 }], - Handled by Prettier
+		// 'key-spacing': [2, { mode: 'minimum' }], - Handled by Prettier
+		// 'keyword-spacing': 2, - Handled by Prettier
+		// 'new-parens': 2, - Handled by Prettier
 		'no-case-declarations': 2,
 		'no-class-assign': 2,
 		'no-cond-assign': 2,
-		'no-confusing-arrow': [2, { allowParens: true }],
+		// 'no-confusing-arrow': [2, { allowParens: true }], - Handled by Prettier
 		'no-constant-condition': 2,
 		'no-empty-pattern': 2,
 		'no-empty': 2,
-		'no-extra-parens': [2, 'functions'],
+		// 'no-extra-parens': [2, 'functions'], - Handled by Prettier
 		'no-global-assign': 2,
 		'no-inner-declarations': 2,
 		'no-invalid-regexp': 2,
 		'no-mixed-requires': 2,
-		'no-multiple-empty-lines': [2, { max: 2 }],
+		// 'no-multiple-empty-lines': [2, { max: 2 }], - Handled by Prettier
 		'no-negated-in-lhs': 2,
 		'no-new-require': 2,
 		'no-path-concat': 2,
@@ -58,7 +62,7 @@ module.exports = {
 		'no-regex-spaces': 2,
 		'no-restricted-modules': [2, 'sys', '_linklist'],
 		'no-sparse-arrays': 2,
-		'no-trailing-spaces': 2,
+		// 'no-trailing-spaces': 2, - Handled by Prettier
 		'no-undef': 2,
 		'no-unsafe-finally': 2,
 		'no-unsafe-negation': 2,
@@ -67,21 +71,27 @@ module.exports = {
 		'promise/always-return': 2,
 		'promise/catch-or-return': 2,
 		'promise/param-names': 2,
-		'quotes': [2, 'single', { allowTemplateLiterals: true }],
+		// 'quotes': [2, 'single', { allowTemplateLiterals: true }], - Handled by Prettier
 		'require-yield': 2,
-		'semi': 2,
-		'space-before-blocks': [2, 'always'],
-		'space-before-function-paren': [2, 'never'],
-		'space-in-parens': [2, 'never'],
-		'space-unary-ops': 2,
-		'template-curly-spacing': 2,
+		// 'semi': 2, - Handled by Prettier
+		// 'space-before-blocks': [2, 'always'], - Handled by Prettier
+		// 'space-before-function-paren': [2, 'never'], - Handled by Prettier
+		// 'space-in-parens': [2, 'never'], - Handled by Prettier
+		// 'space-unary-ops': 2, - Handled by Prettier
+		// 'template-curly-spacing': 2, - Handled by Prettier
 
 		//  Warnings - will become errors in next major version
+		'prettier/prettier': 'warn',
 
 		// Disabled - left to consumer to define
 		'import/prefer-default-export': 0,
 		'lodash/chaining': 0,
 		'quote-props': 0,
+
+		// Disable for Prettier
+		'no-extra-semi': 0,
+		'no-mixed-spaces-and-tabs': 0,
+		'no-unexpected-multiline': 0,
 
 		// Unspecified
 		// 'import/extensions'

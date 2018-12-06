@@ -9,6 +9,20 @@ npm install eslint-config-appnexus --save-dev
 npm install eslint-plugin-import --save-dev
 npm install eslint-plugin-lodash --save-dev
 npm install eslint-plugin-promise --save-dev
+npm install eslint-plugin-prettier --save-dev
+npm install --save-dev --save-exact prettier
+```
+
+Create a `.prettierrc` file in the project root with the standard overrides:
+
+```
+{
+  "printWidth": 120,
+  "singleQuote": true,
+  "arrowParens": "always",
+  "semi": true,
+  "trailingComma": "all"
+}
 ```
 
 ## Links
