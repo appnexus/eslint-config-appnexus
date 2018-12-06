@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-appnexus",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "AppNexus Standard Eslint Config",
   "main": "index.js",
   "scripts": {
