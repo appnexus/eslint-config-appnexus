@@ -2,6 +2,9 @@
 
 ## Latest
 
+* [minor] - Added warning for `react/jsx-uses-vars` to become error in next major release
+* [minor] - Added warning for `react/jsx-uses-react` to become error in next major release
+
 ## 2.0.0
 
 * [major] - Upgraded dependencies
@@ -11,7 +14,7 @@
 
 * [minor] - Added warning for `no-undef` to become error in next major release
 * [minor] - Added warning for `jsx-quotes` to become error in next major release
-* [minor] - `react/prop-types` to become error in next major release
+* [minor] - Added warning for `react/prop-types` to become error in next major release
 
 ## 1.5.1
 

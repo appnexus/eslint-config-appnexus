@@ -20,6 +20,8 @@ module.exports = {
 		'jsx-quotes': [2, 'prefer-single'],
 
 		//  Warnings - will become errors in next major version
+		'react/jsx-uses-vars': 1,
+		'react/jsx-uses-react': 1,
 
 		// === Unspecified ===
 		// 'react/display-name'
