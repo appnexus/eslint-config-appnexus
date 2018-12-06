@@ -37,13 +37,6 @@
     "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-prettier": "^3.0.0"
   },
-  "bundleDependencies": [
-    "prettier",
-    "eslint-config-prettier",
-    "eslint-plugin-prettier",
-    "eslint-plugin-import",
-    "eslint-plugin-promise"
-  ],
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.9.0",
