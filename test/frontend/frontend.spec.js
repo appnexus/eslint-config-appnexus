@@ -5,7 +5,7 @@ var cli = new CLIEngine({	configFile: './frontend.js' });
 
 describe('Frontend', function() {
 
-	it('should catch lint', function() {
+	it.skip('should catch lint', function() {
 
 		var report = cli.executeOnFiles(['test/frontend/test-source.jsx']);
 

@@ -16,10 +16,10 @@ module.exports = {
 		'react/jsx-uses-react': 2,
 		'react/jsx-uses-vars': 2,
 		'react/react-in-jsx-scope': 2,
+		'react/prop-types': 2,
+		'jsx-quotes': [2, 'prefer-single'],
 
 		//  Warnings - will become errors in next major version
-		'jsx-quotes': [1, 'prefer-single'],
-		'react/prop-types': 1,
 
 		// === Unspecified ===
 		// 'react/display-name'

@@ -2,6 +2,11 @@
 
 ## Latest
 
+## 2.0.0
+
+* [major] - Upgraded dependencies
+* [major] - warning promoted to errors
+
 ## 1.6.0
 
 * [minor] - Added warning for `no-undef` to become error in next major release
