@@ -2,8 +2,9 @@
 
 ## Latest
 
-* [minor] - Added warning for `react/jsx-uses-vars` to become error in next major release
-* [minor] - Added warning for `react/jsx-uses-react` to become error in next major release
+## 2.0.2
+
+* [patch] - fixed experimentalObjectRestSpread error
 
 ## 2.0.0
 
