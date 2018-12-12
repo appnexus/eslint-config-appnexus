@@ -45,6 +45,7 @@ module.exports = {
 		'no-case-declarations': 2,
 		'no-class-assign': 2,
 		'no-cond-assign': 2,
+		'no-console': [1, { allow: ['warn', 'error', 'info'] }],
 		// 'no-confusing-arrow': [2, { allowParens: true }], - Handled by Prettier
 		'no-constant-condition': 2,
 		'no-empty-pattern': 2,

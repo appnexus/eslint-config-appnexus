@@ -4,6 +4,8 @@
 
 ## 3.0.0
 
+* [minor] - Frontend: `promise/always-return` no longer errors
+* [minor] - `no-console` allows warn, info, error
 * [major] - Added prettier and rules as warning
 
 ## 2.0.2

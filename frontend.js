@@ -16,6 +16,7 @@ module.exports = {
 		'react/react-in-jsx-scope': 2,
 		'react/prop-types': 2,
 		'jsx-quotes': [2, 'prefer-single'],
+		'promise/always-return': 0, // turned off due for redux
 
 		//  Warnings - will become errors in next major version
 
