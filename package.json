@@ -4,7 +4,7 @@
   "description": "AppNexus Standard Eslint Config",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest -i --detectOpenHandles",
     "watch": "jest --watch",
     "lint": "eslint . --ignore-pattern test-*",
     "lint-fix": "eslint . --ignore-pattern test-* --fix",
