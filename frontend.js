@@ -6,7 +6,9 @@ module.exports = {
 	parserOptions: {
 		ecmaVersion: 6,
 		sourceType: 'module',
-		ecmaFeatures: { jsx: true },
+		ecmaFeatures: {
+			jsx: true,
+		},
 	},
 	parser: 'babel-eslint',
 	plugins: ['react'],
@@ -75,6 +77,14 @@ module.exports = {
 		// 'react/wrap-multilines'
 	},
 	settings: {
-		'import/resolver': { node: { extensions: ['.js', '.jsx'] } },
+		'import/resolver': {
+			node: {
+				extensions: ['.js', '.jsx'],
+			},
+		},
+		react: {
+			pragma: 'React',
+			version: 'detect',
+		},
 	},
 };

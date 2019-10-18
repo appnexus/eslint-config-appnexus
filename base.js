@@ -37,7 +37,12 @@ module.exports = {
 		'import/no-mutable-exports': 2,
 		'import/no-named-as-default-member': 2,
 		'import/no-named-as-default': 2,
-		'import/no-unresolved': [2, { commonjs: true }],
+		'import/no-unresolved': [
+			2,
+			{
+				commonjs: true,
+			},
+		],
 		// 'indent': [2, 'tab', { SwitchCase: 1 }], - Handled by Prettier
 		// 'key-spacing': [2, { mode: 'minimum' }], - Handled by Prettier
 		// 'keyword-spacing': 2, - Handled by Prettier
@@ -45,7 +50,12 @@ module.exports = {
 		'no-case-declarations': 2,
 		'no-class-assign': 2,
 		'no-cond-assign': 2,
-		'no-console': [1, { allow: ['warn', 'error', 'info'] }],
+		'no-console': [
+			1,
+			{
+				allow: ['warn', 'error', 'info'],
+			},
+		],
 		// 'no-confusing-arrow': [2, { allowParens: true }], - Handled by Prettier
 		'no-constant-condition': 2,
 		'no-empty-pattern': 2,
@@ -67,9 +77,13 @@ module.exports = {
 		'no-undef': 2,
 		'no-unsafe-finally': 2,
 		'no-unsafe-negation': 2,
-		'no-unused-vars': [2, { args: 'none' }],
+		'no-unused-vars': [
+			2,
+			{
+				args: 'none',
+			},
+		],
 		'prefer-const': 2,
-		'promise/always-return': 2,
 		'promise/catch-or-return': 2,
 		'promise/param-names': 2,
 		// 'quotes': [2, 'single', { allowTemplateLiterals: true }], - Handled by Prettier
@@ -88,6 +102,7 @@ module.exports = {
 		'import/prefer-default-export': 0,
 		'lodash/chaining': 0,
 		'quote-props': 0,
+		'promise/always-return': 0,
 
 		// Disable for Prettier
 		'no-extra-semi': 0,

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "watch": "jest --watch",
     "lint": "eslint . --ignore-pattern test-*",
     "lint-fix": "eslint . --ignore-pattern test-* --fix",
     "find-unused-rules": "eslint-find-rules -u -n",
@@ -34,23 +35,26 @@
     }
   ],
   "dependencies": {
-    "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-prettier": "^3.0.0"
+    "eslint-config-prettier": "^3.6.0"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.9.0",
-    "eslint-find-rules": "^3.3.1",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1",
+    "eslint-find-rules": "^3.4.0",
     "eslint-plugin-hapi": "^4.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-lodash": "^5.1.0",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-react": "^7.11.1",
-    "jest": "^23.6.0",
-    "lodash": "^4.17.11",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-lodash": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.16.0",
+    "jest": "^24.9.0",
+    "lodash": "^4.17.15",
     "pre-push": "^0.1.1",
-    "prettier": "^1.15.3",
-    "react": "^16.6.3"
+    "prettier": "^1.18.2",
+    "react": "^16.10.2",
+    "typescript": "^3.6.4"
   },
   "jest": {
     "testEnvironment": "node"
