@@ -4,7 +4,7 @@
   "description": "AppNexus Standard Eslint Config",
   "main": "index.js",
   "scripts": {
-    "test": "jest -i --detectOpenHandles",
+    "test": "jest -i --no-watchman",
     "watch": "jest --watch",
     "lint": "eslint . --ignore-pattern test-*",
     "lint-fix": "eslint . --ignore-pattern test-* --fix",
@@ -35,7 +35,7 @@
     }
   ],
   "dependencies": {
-    "eslint-config-prettier": "^3.6.0"
+    "eslint-config-prettier": "^6.4.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.4.0",

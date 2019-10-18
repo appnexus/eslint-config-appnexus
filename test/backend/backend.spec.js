@@ -5,8 +5,8 @@ const cli = new CLIEngine({
 	configFile: './backend.js',
 });
 
-describe('Backend', function() {
-	it('should catch lint', function() {
+describe('Backend', () => {
+	it('should catch lint', () => {
 		const report = cli.executeOnFiles(['test/backend/test-source.js']);
 
 		const errors = _.map(report.results[0].messages, (message) => {

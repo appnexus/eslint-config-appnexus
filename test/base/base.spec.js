@@ -5,11 +5,11 @@ const cli = new CLIEngine({
 	configFile: './base.js',
 });
 
-describe('Base', function() {
-	it('should catch lint', function() {
+describe('Base', () => {
+	it('should catch lint', () => {
 		const report = cli.executeOnFiles(['test/base/test-source.js']);
 
-		const errors = _.map(report.results[0].messages, function(message) {
+		const errors = _.map(report.results[0].messages, (message) => {
 			return _.pick(message, 'ruleId', 'severity');
 		});
 

@@ -5,11 +5,13 @@ const cli = new CLIEngine({
 	configFile: './typescript.js',
 });
 
-describe('Backend', function() {
-	it('should catch lint', function() {
+describe.skip('Typescript', () => {
+	it('should catch lint', () => {
+		expect.assertions(1);
+
 		const report = cli.executeOnFiles(['test/typescript/test-source.ts']);
 
-		const errors = _.map(report.results[0].messages, function(message) {
+		const errors = _.map(report.results[0].messages, (message) => {
 			return _.pick(message, 'ruleId', 'severity');
 		});
 
