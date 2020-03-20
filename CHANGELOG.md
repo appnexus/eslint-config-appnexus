@@ -2,6 +2,10 @@
 
 ## Latest
 
+## 3.1.1
+
+- [patch] - Updated dependencies
+
 ## 3.1.0
 
 - [minor] - Added `appnexus/typescript`
