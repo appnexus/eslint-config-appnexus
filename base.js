@@ -27,7 +27,7 @@ module.exports = {
 		// 'arrow-spacing': [2, { before: true, after: true }], - Handled by Prettier
 		// 'comma-dangle': [2, 'always-multiline'], - Handled by Prettier
 		// 'comma-spacing': 2, - Handled by Prettier
-		'camelcase': 'off',
+		camelcase: 'off',
 		'constructor-super': 2,
 		// 'eol-last': 2, - Handled by Prettier
 		'import/default': 2,

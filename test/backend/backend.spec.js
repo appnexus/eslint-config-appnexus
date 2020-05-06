@@ -20,7 +20,7 @@ describe('Backend', () => {
 			},
 			{
 				ruleId: 'prettier/prettier',
-				severity: 1,
+				severity: 2,
 			},
 			{
 				ruleId: 'hapi/no-arrowception',
