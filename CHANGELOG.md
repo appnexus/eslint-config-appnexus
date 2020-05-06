@@ -2,6 +2,9 @@
 
 ## Latest
 
+## 3.1.2
+- [patch] - Adding new warnings prior to a major bump
+
 ## 3.1.1
 
 - [patch] - Updated dependencies

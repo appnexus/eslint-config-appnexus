@@ -1,1 +1,4 @@
 node_modules
+
+# jetbrains projects
+/.idea

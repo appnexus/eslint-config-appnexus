@@ -13,14 +13,16 @@ module.exports = {
 	parser: 'babel-eslint',
 	plugins: ['react'],
 	rules: {
-		'react/jsx-uses-react': 2,
+		'react/jsx-uses-react': 'error',
 		'react/jsx-uses-vars': 2,
 		'react/react-in-jsx-scope': 2,
-		'react/prop-types': 2,
+		'react/prop-types': 'error',
 		'jsx-quotes': [2, 'prefer-single'],
 		'promise/always-return': 0, // turned off due for redux
 
 		//  Warnings - will become errors in next major version
+		'react/jsx-sort-props': 'warn',
+		'react/jsx-curly-brace-presence': ['warn', { props: 'never' }],
 
 		// === Unspecified ===
 		// 'react/display-name'
