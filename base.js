@@ -25,6 +25,7 @@ module.exports = {
 		// 'arrow-spacing': [2, { before: true, after: true }], - Handled by Prettier
 		// 'comma-dangle': [2, 'always-multiline'], - Handled by Prettier
 		// 'comma-spacing': 2, - Handled by Prettier
+		'camelcase': 'off',
 		'constructor-super': 2,
 		// 'eol-last': 2, - Handled by Prettier
 		'import/default': 2,
@@ -97,6 +98,7 @@ module.exports = {
 
 		//  Warnings - will become errors in next major version
 		'prettier/prettier': 'warn',
+		'no-use-before-define': 'warn',
 
 		// Disabled - left to consumer to define
 		'import/prefer-default-export': 0,
