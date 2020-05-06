@@ -11,8 +11,12 @@ module.exports = {
 		},
 	},
 	parser: 'babel-eslint',
-	plugins: ['react'],
+	plugins: ['react', 'react-hooks'],
 	rules: {
+		'react/jsx-sort-props': 'error',
+		'react-hooks/rules-of-hooks': 'error',
+		'react-hooks/exhaustive-deps': 'error',
+		'react/jsx-curly-brace-presence': ['error', { props: 'never' }],
 		'react/jsx-uses-react': 'error',
 		'react/jsx-uses-vars': 2,
 		'react/react-in-jsx-scope': 2,
@@ -21,8 +25,6 @@ module.exports = {
 		'promise/always-return': 0, // turned off due for redux
 
 		//  Warnings - will become errors in next major version
-		'react/jsx-sort-props': 'warn',
-		'react/jsx-curly-brace-presence': ['warn', { props: 'never' }],
 
 		// === Unspecified ===
 		// 'react/display-name'

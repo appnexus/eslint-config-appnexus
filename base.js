@@ -21,11 +21,13 @@ module.exports = {
 		'import/extensions': ['js'],
 	},
 	rules: {
+		'prettier/prettier': 'error',
+		'no-use-before-define': 'error',
 		// 'arrow-parens': [2, 'always'], - Handled by Prettier
 		// 'arrow-spacing': [2, { before: true, after: true }], - Handled by Prettier
 		// 'comma-dangle': [2, 'always-multiline'], - Handled by Prettier
 		// 'comma-spacing': 2, - Handled by Prettier
-		'camelcase': 'off',
+		camelcase: 'off',
 		'constructor-super': 2,
 		// 'eol-last': 2, - Handled by Prettier
 		'import/default': 2,
@@ -97,8 +99,6 @@ module.exports = {
 		// 'template-curly-spacing': 2, - Handled by Prettier
 
 		//  Warnings - will become errors in next major version
-		'prettier/prettier': 'warn',
-		'no-use-before-define': 'warn',
 
 		// Disabled - left to consumer to define
 		'import/prefer-default-export': 0,

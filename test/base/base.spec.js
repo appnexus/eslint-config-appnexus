@@ -16,15 +16,15 @@ describe('Base', () => {
 		expect(errors).toEqual([
 			{
 				ruleId: 'prettier/prettier',
-				severity: 1,
+				severity: 2,
 			},
 			{
 				ruleId: 'prettier/prettier',
-				severity: 1,
+				severity: 2,
 			},
 			{
 				ruleId: 'prettier/prettier',
-				severity: 1,
+				severity: 2,
 			},
 		]);
 	});

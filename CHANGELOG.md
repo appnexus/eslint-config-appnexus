@@ -2,6 +2,9 @@
 
 ## Latest
 
+## 4.0.0
+- [patch] - Moving our warnings over to errors
+
 ## 3.1.2
 - [patch] - Adding new warnings prior to a major bump
 
