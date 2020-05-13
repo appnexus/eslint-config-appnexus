@@ -25,6 +25,8 @@ module.exports = {
 		'promise/always-return': 0, // turned off due for redux
 
 		//  Warnings - will become errors in next major version
+		'no-shadow': 'warn',
+		'react/prefer-stateless-function': 'warn',
 
 		// === Unspecified ===
 		// 'react/display-name'
