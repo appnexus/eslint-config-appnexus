@@ -2,6 +2,9 @@
 
 ## Latest
 
+## 4.1.0
+- [minor] - Adding 2 rules for FE
+
 ## 4.0.0
 - [patch] - Moving our warnings over to errors
 
