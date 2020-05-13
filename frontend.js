@@ -23,10 +23,10 @@ module.exports = {
 		'react/prop-types': 'error',
 		'jsx-quotes': [2, 'prefer-single'],
 		'promise/always-return': 0, // turned off due for redux
+		'no-shadow': 'error',
+		'react/prefer-stateless-function': 'error',
 
 		//  Warnings - will become errors in next major version
-		'no-shadow': 'warn',
-		'react/prefer-stateless-function': 'warn',
 
 		// === Unspecified ===
 		// 'react/display-name'
