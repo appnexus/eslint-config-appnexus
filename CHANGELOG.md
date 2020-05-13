@@ -2,6 +2,9 @@
 
 ## Latest
 
+## 5.0.0
+- [major] - Moved temp warnings over to Errors for FE
+
 ## 4.1.0
 - [minor] - Adding 2 rules for FE
 
