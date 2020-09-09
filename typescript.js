@@ -36,10 +36,15 @@ module.exports = {
 			},
 		],
 		'@typescript-eslint/ban-ts-comment': error, // use eslint-disable-next-line instead
-		'@typescript-eslint/interface-name-prefix': [
-			error,
+		'@typescript-eslint/naming-convention': [
+			'error',
 			{
-				prefixWithI: 'always',
+				selector: 'interface',
+				format: ['PascalCase'],
+				custom: {
+					regex: '^I[A-Z]',
+					match: true,
+				},
 			},
 		],
 		'@typescript-eslint/no-explicit-any': off,

@@ -2,19 +2,26 @@
 
 ## Latest
 
+- [patch] - Replaced interface-name-prefix with naming-convention
+
 ## 6.0.0
+
 - [major] - Updated typescript to 4, the next major version
 
 ## 5.0.0
+
 - [major] - Moved temp warnings over to Errors for FE
 
 ## 4.1.0
+
 - [minor] - Adding 2 rules for FE
 
 ## 4.0.0
+
 - [patch] - Moving our warnings over to errors
 
 ## 3.1.2
+
 - [patch] - Adding new warnings prior to a major bump
 
 ## 3.1.1
