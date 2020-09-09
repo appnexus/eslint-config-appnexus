@@ -2,6 +2,9 @@
 
 ## Latest
 
+## 6.0.0
+- [major] - Updated typescript to 4, the next major version
+
 ## 5.0.0
 - [major] - Moved temp warnings over to Errors for FE
 
