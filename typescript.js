@@ -35,7 +35,7 @@ module.exports = {
 				argsIgnorePattern: '^_',
 			},
 		],
-		'@typescript-eslint/ban-ts-ignore': error, // use eslint-disable-next-line instead
+		'@typescript-eslint/ban-ts-comment': error, // use eslint-disable-next-line instead
 		'@typescript-eslint/interface-name-prefix': [
 			error,
 			{
