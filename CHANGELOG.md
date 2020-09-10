@@ -2,9 +2,13 @@
 
 ## Latest
 
+## 6.2.0
+
+- [minor] - Updated dependencies and fixed lint
+
 ## 6.1.0
 
-- [major] - Added `@typescript-eslint/naming-convention` with warnings
+- [minor] - Added `@typescript-eslint/naming-convention` with warnings
 - [patch] - Removed `@typescript-eslint/camelcase`
 - [patch] - Turned `no-use-before-define` off
 - [patch] - Turned `react/jsx-sort-props` off

@@ -9,7 +9,7 @@ describe('Frontend', () => {
 	it.skip('should catch lint', () => {
 		const report = cli.executeOnFiles(['test/frontend/test-source.jsx']);
 
-		const errors = _.map(report.results[0].messages, function(message) {
+		const errors = _.map(report.results[0].messages, function (message) {
 			return _.pick(message, 'ruleId', 'severity');
 		});
 
@@ -24,7 +24,7 @@ describe('Frontend', () => {
 	it('should catch missing react in scope', () => {
 		const report = cli.executeOnFiles(['test/frontend/test-source-missing-react.jsx']);
 
-		const errors = _.map(report.results[0].messages, function(message) {
+		const errors = _.map(report.results[0].messages, function (message) {
 			return _.pick(message, 'ruleId', 'severity');
 		});
 
