@@ -13,7 +13,10 @@ module.exports = {
 	parser: 'babel-eslint',
 	plugins: ['react', 'react-hooks'],
 	rules: {
-		'react/jsx-sort-props': 'error',
+		// Off
+		'react/jsx-sort-props': 'off',
+
+		// Errors
 		'react-hooks/rules-of-hooks': 'error',
 		'react-hooks/exhaustive-deps': 'error',
 		'react/jsx-curly-brace-presence': ['error', { props: 'never' }],
@@ -50,7 +53,6 @@ module.exports = {
 		// 'react/jsx-no-target-blank'
 		// 'react/jsx-no-undef'
 		// 'react/jsx-pascal-case'
-		// 'react/jsx-sort-props'
 		// 'react/jsx-space-before-closing'
 		// 'react/jsx-tag-spacing'
 		// 'react/jsx-wrap-multilines'

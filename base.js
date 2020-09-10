@@ -22,7 +22,7 @@ module.exports = {
 	},
 	rules: {
 		'prettier/prettier': 'error',
-		'no-use-before-define': 'error',
+		'no-use-before-define': 'off',
 		// 'arrow-parens': [2, 'always'], - Handled by Prettier
 		// 'arrow-spacing': [2, { before: true, after: true }], - Handled by Prettier
 		// 'comma-dangle': [2, 'always-multiline'], - Handled by Prettier

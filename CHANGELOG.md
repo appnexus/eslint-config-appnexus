@@ -2,7 +2,17 @@
 
 ## Latest
 
-- [patch] - Replaced interface-name-prefix with naming-convention
+## 6.1.0
+
+- [major] - Added `@typescript-eslint/naming-convention` with warnings
+- [patch] - Removed `@typescript-eslint/camelcase`
+- [patch] - Turned `no-use-before-define` off
+- [patch] - Turned `react/jsx-sort-props` off
+- [patch] - Turned `@typescript-eslint/no-unsafe-member-access` off
+- [patch] - Turned `@typescript-eslint/no-use-before-define` off
+- [patch] - Turned `@typescript-eslint/restrict-plus-operands` off
+- [patch] - Turned `@typescript-eslint/no-unsafe-assignment` off
+- [patch] - Replaced `interface-name-prefix` with `naming-convention`
 
 ## 6.0.0
 
