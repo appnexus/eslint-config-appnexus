@@ -23,6 +23,7 @@ module.exports = {
 	rules: {
 		// Off
 		'react/jsx-sort-props': 'off',
+		'no-unused-vars': 'off',
 		'no-shadow': 'off',
 		'@typescript-eslint/explicit-function-return-type': 'off',
 		'@typescript-eslint/prefer-regexp-exec': 'off',
