@@ -2,6 +2,9 @@
 
 ## Latest
 
+## 7.0.1
+- [patch] - Fixed a typo in the rule name
+
 ## 7.0.0
 - [major] - Updated the warns to errors and added new rules to account for the latest ts parse. Also updated ts parsers
 
