@@ -77,7 +77,7 @@ module.exports = {
 				// Off
 				'react/prop-types': 'off',
 				'@typescript-eslint/camelcase': 'off',
-				'typescript-eslint/no-unsafe-return': 'off',
+				'@typescript-eslint/no-unsafe-return': 'off',
 				'@typescript-eslint/explicit-module-boundary-types': 'off',
 				'@typescript-eslint/no-unsafe-call': 'off',
 
