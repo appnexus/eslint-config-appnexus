@@ -23,9 +23,8 @@ module.exports = {
 	rules: {
 		// Off
 		'react/jsx-sort-props': 'off',
-		'no-unused-vars': 'off',
+		'no-shadow': 'off',
 		'@typescript-eslint/explicit-function-return-type': 'off',
-		// '@typescript-eslint/camelcase': 'off',
 		'@typescript-eslint/prefer-regexp-exec': 'off',
 		'@typescript-eslint/no-explicit-any': 'off',
 		'@typescript-eslint/max-classes-per-file': 'off',
@@ -76,12 +75,17 @@ module.exports = {
 			rules: {
 				// Off
 				'react/prop-types': 'off',
+				'@typescript-eslint/camelcase': 'off',
+				'typescript-eslint/no-unsafe-return': 'off',
+				'@typescript-eslint/explicit-module-boundary-types': 'off',
+				'@typescript-eslint/no-unsafe-call': 'off',
 
-				//  Warnings - will become errors in next major version
-				'@typescript-eslint/restrict-plus-operands': 'warn',
-				'@typescript-eslint/no-unsafe-member-access': 'warn',
+				// Error
+				'@typescript-eslint/no-shadow': ['error'],
+				'@typescript-eslint/restrict-plus-operands': 'error',
+				'@typescript-eslint/no-unsafe-member-access': 'error',
 				'@typescript-eslint/naming-convention': [
-					'warn',
+					'error',
 					{
 						selector: 'default',
 						format: ['camelCase'],
@@ -90,6 +94,10 @@ module.exports = {
 						selector: 'variable',
 						format: ['camelCase', 'UPPER_CASE', 'PascalCase', 'snake_case'],
 						leadingUnderscore: 'allow',
+					},
+					{
+						selector: 'enumMember',
+						format: ['camelCase', 'UPPER_CASE'],
 					},
 					{
 						selector: 'function',
