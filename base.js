@@ -80,12 +80,7 @@ module.exports = {
 		'no-undef': 2,
 		'no-unsafe-finally': 2,
 		'no-unsafe-negation': 2,
-		'no-unused-vars': [
-			2,
-			{
-				args: 'none',
-			},
-		],
+		'no-unused-vars': ['error', { args: 'after-used' }],
 		'prefer-const': 2,
 		'promise/catch-or-return': 2,
 		'promise/param-names': 2,
