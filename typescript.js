@@ -98,7 +98,11 @@ module.exports = {
 					},
 					{
 						selector: 'enumMember',
-						format: ['camelCase', 'UPPER_CASE'],
+						format: ['UPPER_CASE'],
+					},
+					{
+						selector: 'enum',
+						format: ['UPPER_CASE'],
 					},
 					{
 						selector: 'function',
