@@ -1,6 +1,7 @@
 # Change Log
 
 ## Latest
+- [minor] - This creates a new rule for enums and enum props
 
 ## 7.0.1
 - [patch] - Fixed a typo in the rule name
