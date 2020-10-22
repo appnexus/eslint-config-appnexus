@@ -1,6 +1,8 @@
 # Change Log
 
 ## Latest
+
+## 7.1.0
 - [minor] - This creates a new rule for enums and enum props
 
 ## 7.0.1
