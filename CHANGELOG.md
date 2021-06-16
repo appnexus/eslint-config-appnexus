@@ -2,6 +2,9 @@
 
 ## Latest
 
+## 7.1.1
+- [patch] - Excluded `__html` from `@typescript-eslint/naming-convention`
+
 ## 7.1.0
 - [minor] - This creates a new rule for enums and enum props
 
