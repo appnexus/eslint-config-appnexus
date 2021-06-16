@@ -115,6 +115,11 @@ module.exports = {
 						leadingUnderscore: 'allow',
 					},
 					{
+						selector: 'property',
+						format: null,
+						filter: '^__html$',
+					},
+					{
 						selector: 'parameter',
 						format: ['camelCase', 'snake_case', 'PascalCase'],
 						leadingUnderscore: 'allow',
